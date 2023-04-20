@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+        <style>
+            input{
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body> 
+        <form>
+            <h1>MP3 Player</h1>  
+            <label for="song">Song:</label>  
+            <select id="songs" name="song">  
+                <option value="song1">Song 1</option>  
+                <option value="song2">Song 2</option>  
+                <option value="song3">Song 3</option>  
+                <option value="song4">Song 4</option>  
+            </select><br>
+            <input type="range" id="volume" name="volume" min="10" max="80"><br>
+            <input type="submit" value="Play"> 
+        </form>
+    </body>
+</html>     
